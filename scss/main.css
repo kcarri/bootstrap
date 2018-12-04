@@ -304,8 +304,17 @@ template {
   display: none; }
 
 .my-container {
-  background: #f78f8f;
-  height: 300px; }
+  background-color: #f78f8f;
+  height: 300px;
+  font-family: "Courier New", Courier, monospace; }
+
+.col {
+  border: 1px solid saddlebrown; }
+
+.my-container {
+  background-color: #f78f8f;
+  height: 300px;
+  font-family: "Courier New", Courier, monospace; }
 
 .col {
   border: 1px solid saddlebrown; }

@@ -1,2 +1,13 @@
 @import './vendor/normalize';
 @import './partials/base';
+@import './partials/variables';
+
+.my-container {
+    background-color: #f78f8f;
+    height: 300px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.col {
+    border: 1px solid saddlebrown;
+}
