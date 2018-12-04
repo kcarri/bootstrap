@@ -1,9 +1,13 @@
 .my-container {
-    background-color: #f78f8f;
-    height: 300px;
+    background-color: #b1aab68c;
+    height: 500px;
     font-family: 'Courier New', Courier, monospace
 }
 
 .col {
     border: 1px solid saddlebrown;
 }
+
+.overflow-wrap {
+    overflow-wrap: break-word;
+  }
