@@ -8,45 +8,49 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="scss/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a class="navbar-brand" href="#"><img src="images/logo.png" height="50px"> </a>
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Register</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-            </ul>
-            
-                  
-            <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-                </div>
-              </nav>
 
 
 </head>
 
 <body>
-    <main>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" height="50px"> </a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">News</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Register</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact Us</a>
+    </li>
+    </ul>
+    
+          
+    <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+  <main>
 
             <div class="alert alert-warning alert-dismissible fade show" role="alert">
                     Welcome to my page! Feel free to check out the <strong>links</strong> above.
@@ -56,91 +60,49 @@
                   </div>
 
 
-            <h1>It's a Working Title Con 2019
+            <div class="pad"><h1 class="font">It's a Working Title Con 2019
                 </h1>
-                <h4>Another convention</h4>
+                <h4 id="rockedout">Another convention</h4>
                 <p>Lorem ipsum dolor sid amet</p>
+              </div>
 
             
         
 
-                <section class="container"><div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img class="d-block w-100" src="images/egghead.jpg" alt="Egghead">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="images/cool.jpg" alt="When you leave the oven on">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="images/fireworks.jpg" alt="Fireworks">
-                          </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>
-                    </section>
+                <div class="cycle-slideshow centered"
+                    data-cycle-pause-on-hover="true"
+                >
+                    <img src="./images/cactus1.jpg">
+                    <img src="./images/cactus2.jpg">
+                    <img src="./images/cactus3.jpg">
+                </div>
 
             
                 
-        <section class="container my-container overflow-wrap">
-            <div class="row">
-                <div class="col-sm">
-                    Here is some text
-                </div>
-                <div class="col-md-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                </div>
-                <div class="col-sm-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                </div>
-            </div>
-        </section>
 
        
-        <!--<h1>It's a Working Title Con 2019
-            </h1>
-            <h2>Another convention</h2>
-            <p>Lorem ipsum dolor sid amet</p>-->
             <br><br>
-<section class="container"><h3>Amount raised: $3.50</h3>
-            <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                
 
-    <br><br>
+            <section class="hero pad">
+              <div class="hero-title">
+                <h1 id="hinged" class="">Don't click that thing!</h1>
+                🎄🎄 <button id="btn-animate" class="btn btn-lg">Click me</button> 🎄🎄
+              </div><br><br>
 
-            <form>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                      <small id="emailHelp" class="form-text text-muted">Your email will be handled by several small children.</small>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">I agree to the Terms and Conditions that were never provided to me.</label>
-                    </div><br>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+              <h2 id="hinged2" class="">Oh no!</h2>
+            </section>
+        
+
+
+        <section class="blog container">
+          <h2 class="font">The sky is falling!</h2>
+          <p class="font">Waaaah!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet vehicula nulla. Aenean tempus, justo sed luctus sagittis, enim sem lobortis neque, rutrum dapibus ligula lacus pellentesque purus. Pellentesque rutrum placerat risus. Aenean non magna et lorem fermentum feugiat. Morbi at pretium metus. Phasellus et ipsum leo. Donec nec mi vitae sem tincidunt ullamcorper tempus in mauris. Integer sed volutpat quam. Suspendisse sed velit nunc. Duis ac porta erat. Praesent fermentum dui erat, a varius magna rutrum ac. Donec quis elit diam.</p>
+        </section>
+
 <br><br><br>
 <hr>
-                  <div class="text-muted">Copyright (c) Copyright Copyright</div>
+                  <div id="hinged3" class="text-muted">Copyright (c) Copyright Copyright</div>
                   </section>
                   <br><br>
 
@@ -149,9 +111,14 @@
     </main>
       
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="http://malsup.github.com/jquery.cycle2.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 
     
 </body>
